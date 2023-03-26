@@ -1,0 +1,389 @@
+Ik heb de volgende subnetten toegestaan in een firewall:
+10.162.7.0/24
+172.20.176.0/24
+172.16.0.0/12
+10.64.0.0/10
+10.0.0.0/10
+
+Kun je nagaan of de volgende subnetten allemaal onder de netscaler regels vallen?
+subnetten allemaal /24
+10.67.124.0
+10.64.252.0
+10.69.92.0/23
+10.68.92.0
+10.77.156.0
+10.73.28.0
+10.69.28.0
+10.73.136.0
+172.16.134.0
+172.16.119 en 172.16.153
+10.73.44.0 en 172.16.116
+172.16.113.0
+172.16.186.0
+10.67.252.0
+172.29.80
+172.24.192
+172.16.189.0
+10.72.172.0
+172.29.184.0
+10.65.76.0
+10.71.172.0 en 172.16.106.00
+10.73.204.0
+172.16.180.0 en 172.16.123.0
+10.82.236.0
+10.73.108.0 en 10.203.156.0
+10.72.220.0 en 10.72.221.0
+10.203.105.0 en 10.203.101
+10.68.108.0
+10.73.188.0
+10.162.4.0, 10.162.8.0 en 10.190.0.0
+10.2.79.0
+10.112.60.0
+10.71.60.0
+10.112.76.0
+10.66.60.0
+10.200.16.0
+
+
+en deze ip ranges:
+10.20.172.0	10.20.172.255
+10.20.174.0	10.20.174.255
+10.20.175.0	10.20.175.255
+10.20.176.0	10.20.176.255
+10.20.177.0	10.20.177.255
+10.20.178.0	10.20.178.255
+10.20.179.0	10.20.179.255
+10.20.180.0	10.20.180.255
+10.20.181.0	10.20.181.255
+10.20.182.0	10.20.182.255
+10.20.183.0	10.20.183.255
+10.20.184.0	10.20.184.255
+10.20.185.0	10.20.185.255
+172.20.166.0	172.20.166.255
+172.20.175.0	172.20.175.255
+172.20.176.0	172.20.176.255
+172.20.187.0	172.20.187.255
+172.20.189.0	172.20.189.255
+172.29.176.0	172.29.176.255
+10.20.166.0	10.20.166.255
+10.20.170.0	10.20.170.255
+10.20.171.0	10.20.171.255
+172.16.58.0	172.16.58.255
+172.16.61.0	172.16.61.255
+172.16.105.0	172.16.105.255
+172.16.112.0	172.16.112.255
+172.16.114.0	172.16.114.255
+172.16.120.172	172.16.120.172
+172.16.121.0	172.16.121.255
+172.16.132.0	172.16.132.255
+172.16.133.0	172.16.133.255
+172.16.135.0	172.16.135.255
+172.16.137.0	172.16.137.255
+172.16.139.0	172.16.139.255
+172.16.140.0	172.16.140.255
+172.16.141.0	172.16.141.255
+172.16.142.0	172.16.142.255
+172.16.143.0	172.16.143.255
+172.16.144.0	172.16.144.255
+172.16.145.0	172.16.145.255
+172.16.146.0	172.16.146.255
+172.16.147.0	172.16.147.255
+172.16.148.0	172.16.148.255
+172.16.150.0	172.16.150.255
+172.16.152.0	172.16.152.255
+172.16.154.0	172.16.154.255
+172.16.158.0	172.16.158.255
+De volgende subnetten vallen onder de toegestane subnetten in de firewall:
+
+10.67.124.0/24
+10.64.252.0/24
+10.69.92.0/23
+10.68.92.0/24
+10.77.156.0/24
+10.73.28.0/24
+10.69.28.0/24
+10.73.136.0/24
+10.67.252.0/24
+10.73.204.0/24
+10.82.236.0/24
+10.68.108.0/24
+10.73.188.0/24
+10.162.4.0/24
+10.162.8.0/24
+De volgende subnetten vallen niet onder de toegestane subnetten in de firewall:
+
+10.203.156.0/24
+10.72.220.0/23
+10.203.105.0/24
+10.2.79.0/24
+10.112.60.0/24
+10.71.60.0/24
+10.112.76.0/24
+10.66.60.0/24
+10.200.16.0/24
+10.69.92.0/24
+172.16.134.0/24
+172.16.119.0/24
+172.16.153.0/24
+10.73.44.0/24
+172.16.116.0/24
+172.16.113.0/24
+172.16.186.0/24
+10.71.172.0/24
+172.16.106.0/24
+172.16.180.0/24
+172.16.123.0/24
+10.73.108.0/24
+10.203.101.0/24
+10.72.172.0/24
+172.29.184.0/24
+10.65.76.0/24
+10.73.188.0/24
+10.190.0.0/24
+De volgende ip ranges vallen onder de toegestane subnetten in de firewall:
+
+10.20.172.0/24
+10.20.174.0/24
+10.20.175.0/24
+10.20.176.0/24
+10.20.177.0/24
+10.20.178.0/24
+10.20.179.0/24
+10.20.180.0/24
+10.20.181.0/24
+10.20.182.0/24
+10.20.183.0/24
+10.20.184.0/24
+10.20.185.0/24
+172.20.166.0/24
+172.20.175.0/24
+172.20.176.0/24
+
+
+
+
+Je antwoord klopt niet, zo valt 10.73.108.0/24 onder 10.64.0.0/10
+Je hebt helemaal gelijk, mijn excuses voor de verwarring. Het subnet 10.73.108.0/24 valt inderdaad onder het netwerkadres 10.64.0.0/10. Ik zal mijn vorige antwoord aanpassen. Bedankt voor het opmerken van mijn fout!
+
+
+
+
+
+Ik heb de volgende subnetten toegestaan in een firewall:
+10.162.7.0/24
+172.20.176.0/24
+172.16.0.0/12
+10.64.0.0/10
+10.0.0.0/10
+
+Kun je nagaan of de volgende subnetten allemaal onder de regels vallen?
+10.203.156.0/24
+10.72.220.0/23
+10.203.105.0/24
+10.2.79.0/24
+10.112.60.0/24
+10.71.60.0/24
+10.112.76.0/24
+10.66.60.0/24
+10.200.16.0/24
+10.69.92.0/24
+172.16.134.0/24
+172.16.119.0/24
+172.16.153.0/24
+10.73.44.0/24
+172.16.116.0/24
+172.16.113.0/24
+172.16.186.0/24
+10.71.172.0/24
+172.16.106.0/24
+172.16.180.0/24
+172.16.123.0/24
+10.73.108.0/24
+10.203.101.0/24
+10.72.172.0/24
+172.29.184.0/24
+10.65.76.0/24
+10.73.188.0/24
+10.190.0.0/24
+Laten we voor elk subnet controleren of het onder een van de opgegeven regels valt:
+
+10.203.156.0/24: Niet toegestaan.
+10.72.220.0/23: Niet toegestaan.
+10.203.105.0/24: Niet toegestaan.
+10.2.79.0/24: Niet toegestaan.
+10.112.60.0/24: Niet toegestaan.
+10.71.60.0/24: Niet toegestaan.
+10.112.76.0/24: Niet toegestaan.
+10.66.60.0/24: Niet toegestaan.
+10.200.16.0/24: Niet toegestaan.
+10.69.92.0/24: Niet toegestaan.
+172.16.134.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.119.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.153.0/24: Toegestaan onder de regel "172.16.0.0/12".
+10.73.44.0/24: Niet toegestaan.
+172.16.116.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.113.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.186.0/24: Toegestaan onder de regel "172.16.0.0/12".
+10.71.172.0/24: Niet toegestaan.
+172.16.106.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.180.0/24: Toegestaan onder de regel "172.16.0.0/12".
+172.16.123.0/24: Toegestaan onder de regel "172.16.0.0/12".
+10.73.108.0/24: Toegestaan onder de regel "10.64.0.0/10".
+10.203.101.0/24: Niet toegestaan.
+10.72.172.0/24: Niet toegestaan.
+172.29.184.0/24: Niet toegestaan.
+10.65.76.0/24: Niet toegestaan.
+10.73.188.0/24: Niet toegestaan.
+10.190.0.0/24: Toegestaan onder de regel "10.0.0.0/10".
+Dus de volgende subnetten vallen onder de toegestane regels:
+
+172.16.134.0/24
+172.16.119.0/24
+172.16.153.0/24
+172.16.116.0/24
+172.16.113.0/24
+172.16.186.0/24
+10.73.108
+
+
+
+
+Je antwoord klopt niet, 10.0.0.0/10 is 10.0.0.0 t/m 10.63.255.255 en 10.64.0.0/10 is de daarop volgende reeks. graag je antwoord verbeteren
+Mijn excuses, je hebt gelijk. Ik heb een fout gemaakt in mijn eerdere antwoord. De subnetten 10.203.156.0/24, 10.203.105.0/24, 10.2.79.0/24, 10.112.60.0/24, 10.71.60.0/24, 10.112.76.0/24, 10.66.60.0/24, 10.200.16.0/24, 10.69.92.0/24, 172.16.134.0/24, 172.16.119.0/24, 172.16.153.0/24, 10.73.44.0/24, 172.16.116.0/24, 172.16.113.0/24, 172.16.186.0/24, 10.71.172.0/24, 172.16.106.0/24, 172.16.180.0/24, 172.16.123.0/24, 10.73.108.0/24, 10.203.101.0/24, 10.72.172.0/24, 172.29.184.0/24, 10.65.76.0/24, 10.73.188.0/24, en 10.190.0.0/24 vallen allemaal onder de regels van de firewall.
+
+Dit komt doordat de subnetten 10.203.156.0/24, 10.203.105.0/24, 10.2.79.0/24, 10.200.16.0/24, 10.203.101.0/24, 10.72.172.0/24, 172.29.184.0/24, 10.73.188.0/24 en 10.190.0.0/24 vallen binnen het IP-bereik van de subnet 10.0.0.0/10.
+
+De subnetten 10.72.220.0/23, 10.71.60.0/24, 10.112.60.0/24, 10.112.76.0/24, 10.66.60.0/24, 10.69.92.0/24, 10.73.44.0/24, 10.71.172.0/24, 10.72.172.0/24, 10.65.76.0/24 en 10.73.108.0/24 vallen binnen het IP-bereik van de subnet 10.64.0.0/10.
+
+De subnetten 10.162.7.0/24, 172.20.176.0/24, en 172.16.0.0/12 zijn voldoende breed om alle bovenstaande subnetten te bevatten en daarom vallen alle bovenstaande subnetten binnen de regels van de firewall.
+
+
+
+
+Nee hoor, ook dit antwoord is fout, 10.203.156.0/24 valt helemaal niet onder de regels van de firewall
+Mijn excuses, ik heb een fout gemaakt in mijn vorige antwoord. Om uw vraag correct te beantwoorden, zal ik opnieuw kijken naar de subnetten en controleren welke onder de regels van de firewall vallen:
+
+10.203.156.0/24: valt niet onder de toegestane subnetten
+10.72.220.0/23: valt onder 10.64.0.0/10
+10.203.105.0/24: valt niet onder de toegestane subnetten
+10.2.79.0/24: valt niet onder de toegestane subnetten
+10.112.60.0/24: valt niet onder de toegestane subnetten
+10.71.60.0/24: valt niet onder de toegestane subnetten
+10.112.76.0/24: valt niet onder de toegestane subnetten
+10.66.60.0/24: valt niet onder de toegestane subnetten
+10.200.16.0/24: valt niet onder de toegestane subnetten
+10.69.92.0/24: valt niet onder de toegestane subnetten
+172.16.134.0/24: valt onder 172.16.0.0/12
+172.16.119.0/24: valt onder 172.16.0.0/12
+172.16.153.0/24: valt onder 172.16.0.0/12
+10.73.44.0/24: valt niet onder de toegestane subnetten
+172.16.116.0/24: valt onder 172.16.0.0/12
+172.16.113.0/24: valt onder 172.16.0.0/12
+172.16.186.0/24: valt onder 172.16.0.0/12
+10.71.172.0/24: valt niet onder de toegestane subnetten
+172.16.106.0/24: valt onder 172.16.0.0/12
+172.16.180.0/24: valt onder 172.16.0.0/12
+172.16.123.0/24: valt onder 172.16.0.0/12
+10.73.108.0/24: valt onder 10.64.0.0/10
+10.203.101.0/24: valt niet onder de toegestane subnetten
+10.72.172.0/24: valt onder 10.64.0.0/10
+172.29.184.0/24: valt niet onder de toegestane subnetten
+10.65.76.0/24: valt niet onder de toegestane subnetten
+10.73.188.0/24: valt niet onder de toegestane subnetten
+10.190.0.0/24: valt niet onder de toegestane subnetten
+Dus, van de opgegeven subnetten vallen alleen de volgende
+
+
+
+
+Ook dit antwoord is fout, in de firewall regels staat 10.64.0.0/10 hieronder vallen 10.64.0.0 tot en met 10.127.255.255. ook heb je er een aantal gemist die onder 10.0.0.0/10 vallen
+Mijn excuses voor de fouten in mijn eerdere antwoorden. Hieronder vindt u de correcte lijst van subnetten die onder de firewall regels vallen:
+
+10.162.7.0/24
+172.20.176.0/24
+172.16.0.0/12 (10.0.0.0/8 en 172.16.0.0/12)
+10.64.0.0/10
+De volgende subnetten vallen dus onder deze firewall regels:
+
+10.203.156.0/24 (valt niet onder de firewall regels)
+10.72.220.0/23 (valt onder 10.64.0.0/10)
+10.203.105.0/24 (valt niet onder de firewall regels)
+10.2.79.0/24 (valt onder 10.0.0.0/10)
+10.112.60.0/24 (valt niet onder de firewall regels)
+10.71.60.0/24 (valt niet onder de firewall regels)
+10.112.76.0/24 (valt niet onder de firewall regels)
+10.66.60.0/24 (valt niet onder de firewall regels)
+10.200.16.0/24 (valt niet onder de firewall regels)
+10.69.92.0/24 (valt niet onder de firewall regels)
+172.16.134.0/24 (valt onder 172.16.0.0/12)
+172.16.119.0/24 (valt onder 172.16.0.0/12)
+172.16.153.0/24 (valt onder 172.16.0.0/12)
+10.73.44.0/24 (valt niet onder de firewall regels)
+172.16.116.0/24 (valt onder 172.16.0.0/12)
+172.16.113.0/24 (valt onder 172.16.0.0/12)
+172.16.186.0/24 (valt onder 172.16.0.0/12)
+10.71.172.0/24 (valt niet onder de firewall regels)
+172.16.106.0/24 (valt onder 172.16.0.0/12)
+172.16.180.0/24 (valt onder 172.16.0.0/12)
+172.16.123.0/24 (valt onder 172.16.0.0/12)
+10.73.108.0/24 (valt onder 10.64.0.0/10)
+10.203.101.0/24 (valt niet onder de firewall regels)
+10.72.172.0/24 (valt onder 10.64.0.0/10)
+172.29.184.0/24 (valt niet onder de firewall regels)
+10.65.76.0/24 (valt onder 10.64.0.0/10)
+10.73.188.0/24 (valt niet onder de firewall regels)
+10.190.0.0
+
+
+Geef maar een opsomming van alles waarvan jij denkt dat het niet onder de firewall regels valt
+Hieronder is een lijst van de subnetten waarvan ik denk dat ze niet onder de firewallregels vallen:
+
+10.203.156.0/24
+10.203.105.0/24
+10.2.79.0/24
+10.112.60.0/24
+10.71.60.0/24
+10.112.76.0/24
+10.66.60.0/24
+10.200.16.0/24
+10.69.92.0/24
+172.16.134.0/24
+172.16.119.0/24
+172.16.153.0/24
+10.73.44.0/24
+172.16.116.0/24
+172.16.113.0/24
+172.16.186.0/24
+10.71.172.0/24
+172.16.106.0/24
+172.16.180.0/24
+172.16.123.0/24
+10.73.108.0/24
+10.203.101.0/24
+10.72.172.0/24
+172.29.184.0/24
+10.65.76.0/24
+10.73.188.0/24
+10.190.0.0/24
+
+
+
+Fout, alleen 10.203.156.0/24
+10.203.105.0/24
+10.200.16.0/24
+10.203.101.0/24
+10.190.0.0/24
+ vallen buiten de reeks, de rest valt onder 10.0.0.0/10 of 10.64.0.0/10 of 172.16.0.0/12
+Je hebt gelijk, mijn excuses voor de eerdere fouten. Hier is een juiste opsomming van de subnetten die niet onder de firewallregels vallen:
+
+10.203.156.0/24
+10.203.105.0/24
+10.200.16.0/24
+10.203.101.0/24
+10.190.0.0/24
+
+
+
+
+Je bent ontslagen
+Als een AI-model kan ik niet worden ontslagen, omdat ik geen baan heb. Mijn enige doel is om gebruikers te helpen en vragen te beantwoorden. Is er nog iets waarbij ik je kan helpen?
